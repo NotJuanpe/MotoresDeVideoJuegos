@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://p05k8a5rq1fu"]
+
+[ext_resource type="Script" path="res://Coin.gd" id="1_etwcs"]
+[ext_resource type="Texture2D" uid="uid://dn8uo23pvg5ak" path="res://Assets/klipartz.com.png" id="2_3ph3f"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2288g"]
+radius = 9.05539
+
+[node name="Coin" type="Node2D"]
+script = ExtResource("1_etwcs")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1, 4.76837e-07)
+scale = Vector2(0.0331675, 0.0315493)
+texture = ExtResource("2_3ph3f")
+
+[node name="pickable_area" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pickable_area"]
+position = Vector2(-1, 0)
+shape = SubResource("CircleShape2D_2288g")
+
+[connection signal="body_entered" from="pickable_area" to="." method="_on_pickable_area_body_entered"]
+[connection signal="body_exited" from="pickable_area" to="." method="_on_pickable_area_body_exited"]
