@@ -1,4 +1,4 @@
-# Videojuego estilo RPG - Clase 7 - Godot
+# Videojuego coin collector - Clase 7 - Godot
 ## Demostracion por yt:
 ### https://www.youtube.com/watch?v=FYONumSKJwc
 
@@ -19,4 +19,4 @@
 ### En cada ciclo del juego, se valida continuamente la puntuación para detectar manipulaciones y se asegura de que no se exceda el límite de monedas permitidas.
 
 ## Conclusión
-### Este sistema simple de detección de trampas utiliza hashes SHA-256 para proteger la integridad de la puntuación del jugador. Al precalcular y comparar los hashes de las puntuaciones válidas, se puede detectar y mitigar manipulaciones externas, garantizando una experiencia de juego justa y sin trampas.
+### Este sistema simple de detección de trampas utiliza hashes SHA-256 para intentar proteger la integridad
