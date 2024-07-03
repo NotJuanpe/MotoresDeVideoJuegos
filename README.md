@@ -1,4 +1,7 @@
 # Videojuego coin collector - Clase 7 - Godot
+
+# Todo lo referido a un sistema anticheats se encuentra en la carpeta "Global.gd"
+
 ## Demostracion por yt:
 ### https://www.youtube.com/watch?v=FYONumSKJwc
 
