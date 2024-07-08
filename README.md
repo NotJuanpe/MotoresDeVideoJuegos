@@ -22,4 +22,7 @@
 ### En cada ciclo del juego, se valida continuamente la puntuación para detectar manipulaciones y se asegura de que no se exceda el límite de monedas permitidas.
 
 ## Conclusión
-### Este sistema simple de detección de trampas utiliza hashes SHA-256 para intentar proteger la integridad
+### Este sistema simple de detección de trampas utiliza hashes SHA-256 para intentar proteger la lo que logre hackear es el numero limite de MaxCoins y los coins, tambien descibri como modificar variables "String" y la cosa es, creo que encontre una forma de pasar el hash que seria con lo que descubri crear un script que se ejecute antes de que cargue todo y modificar los maxcoins para que cree los hashes que quiera, pero no llegue a descubrir como lograr crear un script
+
+## Como hackearlo
+### lo que logre hackear es el numero limite de MaxCoins y los coins, tambien descibri como modificar variables "String" y la cosa es, creo que encontre una forma de pasar el hash que seria con lo que descubri crear un script que se ejecute antes de que cargue todo y modificar los maxcoins para que cree los hashes que quiera, pero no llegue a descubrir como lograr crear un script
